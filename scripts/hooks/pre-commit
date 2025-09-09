@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+echo "[hook] pre-commit: lint/format (placeholder)"
+exit 0

@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -euo pipefail
+subcmd="${1:-help}"
+case "$subcmd" in
+  help) echo "reyn <init|status|sync|run>  — Reyn-OS skeleton launcher";;
+  init)  echo "[init] bootstrapping skeleton… (placeholder)";;
+  status) echo "[status] OK — skeleton present";;
+  sync) echo "[sync] (placeholder)";;
+  run) echo "[run] (placeholder)";;
+  *) echo "unknown subcmd: $subcmd"; exit 1;;
+esac
